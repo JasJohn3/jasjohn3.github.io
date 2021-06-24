@@ -46,7 +46,17 @@
    background: var(--light);
    color: var(--dark-grey);
  }
- 
+ .flex{
+   display: flex;
+ }
+ .flex-column{
+  display: flex;
+  flex-direction: column;
+ }
+ .flex-center{
+  text-align: center;
+  justify-content: center;  
+ }
  .flex-items{
    display: flex;
    text-align: center;
@@ -67,6 +77,7 @@
  }
  .devicon {
   font-size: 3rem;
+  margin: 10px;
 }
  @media only screen and (max-width:600px){
    .flex-items{
