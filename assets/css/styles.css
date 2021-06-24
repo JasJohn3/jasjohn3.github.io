@@ -22,7 +22,7 @@ body{
   line-height: 1.6;
 }
 header *{
-  z-index: 1;
+  z-index: 100;
 }
 
 ul{
@@ -49,8 +49,9 @@ img{
 }
 /* Important CSS Tricks(1) */
 /* Set all height values to 100% for nav, nav ul, nav li so links can fill 100% space */
-nav, nav ul, nav li{
+nav, nav ul, nav li, nav a{
   height: 100%;
+  /* border: 1px solid red; */
 }
 /* Important CSS Tricks(1) */
 
@@ -66,12 +67,13 @@ nav, nav ul, nav li{
   opacity: 0.8;
   width: 100%;
   height: 10vh;
+  flex-wrap: wrap;
   /* Important CSS Tricks(2) */
   /* Set position to fixed and top to zero so navbar remains fixed while scrolling*/
   position: fixed;
   top: 0;
     /* Important CSS Tricks(2) */
-  padding: 0 2vw;
+  /* padding: 0 2vw; */
 }
 
 .navbar a{
@@ -84,7 +86,6 @@ nav, nav ul, nav li{
   /* Important CSS Tricks(1) */
   color: var(--white);
   padding: .5vw 1vw;
-  margin: 0 auto;
 }
 .navbar a:hover{
   box-shadow: 1px 1px 4px black;
@@ -96,8 +97,10 @@ nav, nav ul, nav li{
   display: flex;
   justify-content: space-evenly;
   padding: 1rem;
-  border-radius: 50%;
-  margin-bottom: 15px;
+  height: 100%;
+}
+.hamburger{
+  display: none;
 }
 /* Navbar Styling */
 
@@ -144,7 +147,7 @@ nav, nav ul, nav li{
 /* Important CSS Tricks(3) */
 /* select all elements within the .hero content and increas z-index to push content forward */
 .hero *{
-  z-index: 5;
+  z-index: 10;
 }
 /* Header/Hero Styling */
 /* About Section Styling */
@@ -192,29 +195,40 @@ nav, nav ul, nav li{
 /* About Section Styling */
 @media only screen and (max-width:600px){
   /* Navbar Styling */
+
   .navbar {
-    flex-direction: column;
-    height: 40vh;
     width: 100%;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     text-align: center;
+    flex: wrap;
   }
-  .navbar ul{
+  .hamburger{
+    display: inline-block;
+  }
+
+  .navbar .nav-ul{
+    display: none;
     flex-direction: column;
+    width: 100%;
+  }
+  .navbar .nav-ul.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin: 10px;
+    width: 100%;
+    height: 90vh;
+    background: var(--dark-blue);
+    /* opacity: 0.9; */
+    z-index: 100;
   }
   .hero .content h1{
     font-size: 28px;
   }
   .hero .content p{
     font-size: 16px;
-  }
-  /* Navbar Styling */
-}
-@media only screen and (max-width:400px){
-  /* Navbar Styling */
-  .navbar{
-    height: 20vh;
   }
   /* Navbar Styling */
 }

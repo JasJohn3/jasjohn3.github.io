@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
 
   <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Style Sheets -->
   <link rel="stylesheet" href="./assets/css/utilities.css">
@@ -17,21 +18,22 @@
   <title>Document</title>
 </head>
 <body>
-  <header>
-    <div class="navbar" id="navbar">
-      <h1 class="logo">
-      <span class="text-primary">Portfolio</span> J<span class="text-secondary"></span>L</span>J
-      </h1>
-      <nav>
-        <ul>
+  <header>  
+      <nav class="navbar" id="navbar">
+        <h1 class="logo">
+          <span class="text-primary">Portfolio</span> J<span class="text-secondary"></span>L</span>J
+          </h1>
+          <button class="hamburger btn btn-primary" id="hamburger">
+            <i class="fas fa-bars fa-2x"></i>
+          </button>
+        <ul class="nav-ul" id="nav-ul">
           <li><a href="#home">Home</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#project-showcase">Project Showcase</a></li>
+          <li><a href="#projects">Project Showcase</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-    </div>
   </header>
   <main id="home">
     <section class="hero">
@@ -137,5 +139,6 @@
   <footer>
 
   </footer>
+  <script src="./assets/js/app.js"></script>
 </body>
 </html>

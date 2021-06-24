@@ -79,12 +79,3 @@
   font-size: 3rem;
   margin: 10px;
 }
- @media only screen and (max-width:768px){
-   .flex-items{
-     flex-direction: column;
-     justify-content: center;
-   }
-   .flex-items > div{
-     width: 100%;
-   }
- }
