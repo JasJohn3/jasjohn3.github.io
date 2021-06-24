@@ -4,69 +4,126 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <!-- Dev ICONS Link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+  <link rel="stylesheet" href="./assets/css/utilities.css">
   <link rel="stylesheet" href="./assets/css/styles.css">
+  
   <title>Document</title>
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <h1>J<span>L</span>J</h1>
-    </div>
-    <div class="title">
-      <h2>Portfolio</h2>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="#project-showcase">Project Showcase</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="hero">
-      <h1 class="center-text b">Jason Lane Johnson</h1>
-      <img src="./assets/images/hero-bg.jpg" alt="">
-    </section>
-    <section id="project-showcase">
-
-    </section>
-    <h2 class="center-text b">Experience</h2>
-    <section id="experience">
-      
-      <div class="timeline">
+  <header class="hero">
+    <div class="navbar" id="navbar">
+      <h1 class="logo">
+      <span class="text-primary">Portfolio</span> J<span class="text-secondary"></span>L</span>J
+      </h1>
+      <nav>
         <ul>
-          <li>
-            <div class="timeline-content">
-              <h1>Heading 1</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste qui dolores sit optio nihil ratione doloribus laudantium cumque repellat officia?</p>
-            </div>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project-showcase">Project Showcase</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="home">
+    <div class="content">
+      <h1>Jason Lane Johnson</h1>
+      <p>We provide world class financial assistance</p>
+      <a href="#about" class="btn btn-primary"><i class="fas fa-chevron-right"></i>   Read More</a>
+    </div>
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>IDE  &amp; Tools</h3>
+        <ul class="flex-items">
+          <li class=>
+            <a href="https://docs.microsoft.com/en-us/visualstudio/windows/?view=vs-2019" target="_blank">
+              <i class="devicon devicon-visualstudio-plain colored"></i>
+            </a>
           </li>
           <li>
-            <div class="timeline-content">
-              <h1>Heading 2</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste qui dolores sit optio nihil ratione doloribus laudantium cumque repellat officia?</p>
-            </div>
+            <a href="https://code.visualstudio.com/docs" target="_blank">
+              <i class="devicon devicon-visualstudio-plain colored" style="color: darkblue;"></i>
+            </a>
+          </li>
+          <li class=>
+            <a href="https://www.jetbrains.com/pycharm/documentation/" target="_blank">
+              <i class="devicon devicon-pycharm-plain colored"></i>
+            </a>
+            
+          </li>
+          <li class="list-inline-item">
+            <a href="https://git-scm.com/doc" target="_blank">
+              <i class="devicon devicon-git-plain colored"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://guides.github.com/" target="_blank">
+              <i class="devicon devicon-github-plain colored"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://docs.gitlab.com/" target="_blank">
+              <i class="devicon devicon-gitlab-plain colored"></i>
+            </a>
+          </li>
+        </ul>
+        <h2>Programming Languages</h2>
+        <ul class="flex-items">
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
+              <i class="devicon devicon-html5-plain-wordmark colored"></i>
+            </a>
           </li>
           <li>
-            <div class="timeline-content">
-              <h1>Heading 3</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste qui dolores sit optio nihil ratione doloribus laudantium cumque repellat officia?</p>
-            </div>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+              <i class="devicon devicon-css3-plain-wordmark colored"></i>
+            </a>
+          </li>
+          <li >
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+              <i class="devicon devicon-javascript-plain colored"></i>
+            </a>
           </li>
           <li>
-            <div class="timeline-content">
-              <h1>Heading 4</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste qui dolores sit optio nihil ratione doloribus laudantium cumque repellat officia?</p>
-            </div>
+            <a href="https://reactjs.org/docs/getting-started.html" target="_blank">
+              <i class="devicon devicon-react-original-wordmark colored"></i>
+            </a>
           </li>
-        </ul> 
-      </div>
-    </section>
-    <h2>Contact</h2>
-    <section id="contact">
-
+          <li>
+            <a href="https://nodejs.org/en/docs/" target="_blank">
+              <i class="devicon devicon-nodejs-plain-wordmark colored"></i>
+            </a>
+          </li>
+            <li>
+              <a href="https://docs.python.org/3/"  target="_blank">
+                <i class="devicon devicon-python-plain-wordmark colored"></i>
+              </a>
+          </li>
+          <li>
+            <a href="https://docs.microsoft.com/en-us/cpp/?view=vs-2019" target="_blank">
+              <i class="devicon devicon-cplusplus-plain-wordmark colored"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank">
+              <i class="devicon devicon-csharp-plain-wordmark colored"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://dev.mysql.com/doc/" target="_blank">
+              <i class="devicon devicon-mysql-plain-wordmark colored"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://docs.mongodb.com/" target="_blank">
+              <i class="devicon devicon-mongodb-plain-wordmark colored"></i>
+            </a>
+          </li>
+        </ul>
     </section>
   </main>
   <footer>
