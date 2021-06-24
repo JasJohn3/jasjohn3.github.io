@@ -168,6 +168,7 @@ nav, nav ul, nav li{
   color: var(--dark-grey);
   width: fit-content;
   margin: auto;
+  border-radius: 10px;
 }
 .skills-highlight h3{
   margin: 10px;
