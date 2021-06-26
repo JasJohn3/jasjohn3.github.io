@@ -187,26 +187,7 @@ nav, nav ul, nav li, nav a{
                 -1px -1px 0 #000; 
 }
 /* About Section Styling */
-/* FOOTER */
-.footer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
 
-.footer a{
-  color: #fff;
-}
-.footer a:hover{
-  color: #28a745;
-}
-
-.footer .social >*{
-  margin-right: 30px;
-}
-/* FOOTER */
 /* callback form */
 .callback-form{
   width: 100%;
@@ -234,7 +215,34 @@ nav, nav ul, nav li, nav a{
   border: 1px #ddd solid;
   height: 200px;
 }
+
+.profile{
+  border-radius: 50%;
+  border: 2px solid var(--text-secondary);
+  height: auto;
+  width: 100px;
+}
 /* callback form */
+/* FOOTER */
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer a{
+  color: #fff;
+}
+.footer a:hover{
+  color: #28a745;
+}
+
+.footer .social >*{
+  margin-right: 30px;
+}
+/* FOOTER */
 @media only screen and (max-width:768px){
   .flex{
     flex-wrap: wrap;
@@ -244,7 +252,9 @@ nav, nav ul, nav li, nav a{
 
 @media only screen and (max-width:600px){
   /* Navbar Styling */
-
+  .profile{
+    width: 50px;
+  }
   .navbar {
     width: 100%;
     justify-content: space-between;
