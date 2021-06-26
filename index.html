@@ -48,7 +48,7 @@
         <h2>Skills</h2>
         <h3>IDE  &amp; Tools</h3>
         <ul class="flex flex-center">
-          <li class=>
+          <li>
             <a href="https://docs.microsoft.com/en-us/visualstudio/windows/?view=vs-2019" target="_blank">
               <i class="devicon devicon-visualstudio-plain colored"></i>
             </a>
@@ -140,12 +140,48 @@
     <section id="about">
 
     </section>
-    <section id="contact">
-
+    <!-- Contact -->
+    <section id="contact" class="contact flex-columns">
+      <div class="row">
+        <div class="column">
+          <div class="column-1">
+            <img src="images/home/contact.jpg" alt="">
+          </div>
+        </div>
+        <div class="column">
+          <div class="column-2 bg-light">
+            <form action="" class="callback-form">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text"  name="name" id="name" placeholder="Enter Name">
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email"  name="email" id="email" placeholder="Enter Email">
+              </div>
+              <div class="form-control">
+                <label for="phone">Phone</label>
+                <input type="text"  name="phone" id="phone" placeholder="Enter Phone">
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+              </div>
+              <input type="submit" value="Send" id="submit" class="btn btn-dark">
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
-  <footer>
-
+  <footer class="footer bg-dark">
+    <div class="social">
+      <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+      <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+      <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/jason-lane-johnson/"><i class="fab fa-linkedin fa-2x"></i></a>
+    </div>
+    <p>Copyright &copy; - Jason Lane Johnson</p>
   </footer>
   <script src="./assets/js/app.js"></script>
 </body>
