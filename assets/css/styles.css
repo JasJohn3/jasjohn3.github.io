@@ -199,6 +199,10 @@ nav, nav ul, nav li, nav a{
 /* About Section Styling */
 
 /* callback form */
+.address a{
+  color: var(--white);
+  border-bottom: 1px solid var(--text-secondary);
+}
 .callback-form{
   width: 100%;
   padding: 20px 0;
