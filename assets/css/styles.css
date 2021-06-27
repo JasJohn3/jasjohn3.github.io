@@ -37,7 +37,7 @@ a{
 hr{
   height: 2px;
   border: none;
-  background-color: var(--text-primary);
+  margin: 0px 4px;
 }
 h1, h2{
 font-weight: 900;
