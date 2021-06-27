@@ -376,4 +376,7 @@ border: 2px solid #f7c08a;
     flex: 100%;
     max-width: 100%;
   }
+  .project-bg{
+    height: 50vh;
+  }
 }
