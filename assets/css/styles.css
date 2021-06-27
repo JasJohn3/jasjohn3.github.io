@@ -197,7 +197,49 @@ nav, nav ul, nav li, nav a{
                 -1px -1px 0 #000; 
 }
 /* About Section Styling */
+/* Projects Section Styling */
+.project-bg{
+  height: 20vh;
+  width: 10vw;
+}
 
+.hotelbt-title, .run-buddy-title, .edge-ledger-title{
+  border-radius: 10px;
+  margin: 5px;
+}
+.hotelbt-title{
+color: white;
+background: var(--dark-grey);
+border: 2px solid #f7c08a;
+}
+.run-buddy-title{
+  color: #fce138;
+  background: #024e76; 
+  border: 2px solid #fce138; 
+}
+.edge-ledger-title{
+  color: white;
+  background: var(--dark-grey);
+  border: 2px solid var(--text-primary); 
+}
+.hotelbt-title span{
+  color: #f7c08a;
+}
+.run-buddy-bg,.hotelbt-bg, .edge-ledger-bg{
+  background-position: center;
+  background-size: cover;
+}
+.edge-ledger-bg{
+  background-image: url('../images/projects/EdgeLedger.jpg');
+}
+.run-buddy-bg{
+  background-image: url('../images/projects/RunBuddy.jpg');
+
+}
+.hotelbt-bg{
+  background-image: url('../images/projects/HOTELBT.jpg');
+}
+/* Projects Section Styling */
 /* callback form */
 .address a{
   color: var(--white);
