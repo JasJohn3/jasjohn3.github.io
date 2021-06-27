@@ -306,4 +306,8 @@ nav, nav ul, nav li, nav a{
     align-items: center;
     flex-wrap: wrap;
   }
+  .flex-columns .column,.column{
+    flex: 100%;
+    max-width: 100%;
+  }
 }
