@@ -22,7 +22,7 @@
  .btn{
    cursor: pointer;
    display: inline-block;
-   padding: 10px 30px;
+   padding: 10px;
    border: none;
    border-radius: 5px;
  }
@@ -110,7 +110,12 @@
   justify-content: center;
   padding: 30px;
 }
-
+.flex-end{
+  align-items: flex-end;
+}
+.flex-space-between{
+  justify-content: space-between;
+}
 .card{
   background: var(--light);
   margin: .5%;

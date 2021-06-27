@@ -206,6 +206,7 @@ nav, nav ul, nav li, nav a{
 .hotelbt-title, .run-buddy-title, .edge-ledger-title{
   border-radius: 10px;
   margin: 5px;
+  padding: 5px;
 }
 .hotelbt-title{
 color: white;
@@ -238,6 +239,15 @@ border: 2px solid #f7c08a;
 }
 .hotelbt-bg{
   background-image: url('../images/projects/HOTELBT.jpg');
+}
+.project-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-links a{
+  padding: 5px;
 }
 /* Projects Section Styling */
 /* callback form */
