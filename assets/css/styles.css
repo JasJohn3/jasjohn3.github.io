@@ -34,7 +34,11 @@ a{
   text-decoration: none;
   font-size: larger;
 }
-
+hr{
+  height: 2px;
+  border: none;
+  background-color: var(--text-primary);
+}
 h1, h2{
 font-weight: 900;
 line-height: 1.2;
@@ -253,6 +257,12 @@ nav, nav ul, nav li, nav a{
   .flex{
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+@media only screen and (min-width:768px) {
+  .address{
+    font-size: 35px;
+    line-height: 1.5;
   }
 }
 

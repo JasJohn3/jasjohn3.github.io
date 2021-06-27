@@ -6,7 +6,10 @@
   --white:#fff;
   --light:#f4f4f4;
  }
- 
+ .section-title{
+   height: 10vh;
+   font-size: 35px;
+ }
  .text-primary{
    color: var(--text-primary);
  }
