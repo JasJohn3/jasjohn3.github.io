@@ -38,3 +38,10 @@ Javascript Example:
     navUL.classList.toggle('show');
   })
 ```
+##Special Credits to Font Awesome, Devicon and Traversy Media
+
+Many of the icons used throughout the project are from two sites, font awesome and devicon. Additionally, the design of the website is based off of a Udemy course from Traversy Media.
+### References
+Devicon: https://devicon.dev/
+Font Awesome: https://fontawesome.com/
+Traversy Media: https://www.traversymedia.com/
