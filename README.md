@@ -2,7 +2,7 @@
 This is a personal portfolio of various HTML and CSS works.  The site is meant to demonstrate my skills and education as well as highlight various projects.  The site was based off of the EdgeLedger designs and customized to fit my educational experience.
 
 ## Hamburger Menu and Javascript
-Utilizing Javascript, the Hamburger Menu design was built for responsive mobile experience.  To accomplish this task, a custom css class was created called .show.  This class is then added to the classlistID using javascript creating a toggle on effect.  This can be viewed in the following code example.
+Utilizing Javascript, the Hamburger Menu design was built for responsive mobile experience.  To accomplish this task, a custom css class was created called .show.  This class is then added to the classlistID using javascript creating a toggle on effect.  This can be viewed in the following code example. <br>
 Targeted HTML Elements:
 ```
       <nav class="navbar" id="navbar">
