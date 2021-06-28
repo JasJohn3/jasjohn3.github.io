@@ -1,7 +1,7 @@
 # Portfolio Jason Lane Johnson
 This is a personal portfolio of various HTML and CSS works.  The site is meant to demonstrate my skills and education as well as highlight various projects.  The site was based off of the EdgeLedger designs and customized to fit my educational experience.
 
-##Hamburger Menu and Javascript
+## Hamburger Menu and Javascript
 Utilizing Javascript, the Hamburger Menu design was built for responsive mobile experience.  To accomplish this task, a custom css class was created called .show.  This class is then added to the classlistID using javascript creating a toggle on effect.  This can be viewed in the following code example.
 Targeted HTML Elements:
 ```
@@ -38,10 +38,10 @@ Javascript Example:
     navUL.classList.toggle('show');
   })
 ```
-##Special Credits to Font Awesome, Devicon and Traversy Media
+## Special Credits to Font Awesome, Devicon and Traversy Media
 
 Many of the icons used throughout the project are from two sites, font awesome and devicon. Additionally, the design of the website is based off of a Udemy course from Traversy Media.
 ### References
-Devicon: https://devicon.dev/
-Font Awesome: https://fontawesome.com/
-Traversy Media: https://www.traversymedia.com/
+* Devicon: https://devicon.dev/
+* Font Awesome: https://fontawesome.com/
+* Traversy Media: https://www.traversymedia.com/
