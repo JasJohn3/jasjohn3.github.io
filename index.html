@@ -1,275 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <!-- Dev ICONS Link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
-
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Style Sheets -->
-  <link rel="stylesheet" href="./assets/css/utilities.css">
-  <link rel="stylesheet" href="./assets/css/styles.css">
-  
-  <title>Portfolio | JLJ |</title>
-</head>
-<body>
-  <header>  
-      <nav class="navbar" id="navbar">
-        
-        <h1 class="logo">
-          <span class="text-primary">Portfolio</span> J<span class="text-secondary"></span>L</span>J
-          </h1>
-          <button class="hamburger btn btn-primary" id="hamburger">
-            <i class="fas fa-bars fa-2x"></i>
-          </button>
-        <ul class="nav-ul" id="nav-ul">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper blue-grey darken-4">
+          <a href="#!" class="brand-logo">Portfolio |JLJ|</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li><a href="\">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+        </div>
       </nav>
-  </header>
-  <main id="home">
-    <section class="hero">
-      <div class="content">
-        <h1>Jason Lane Johnson</h1>
-        <p>Web developer, Software Engineer and Military Veteran</p>
-        <a href="#about" class="btn btn-primary"><i class="fas fa-chevron-right"></i> Read More</a>
-      </div>
-    </section>
 
-    <h2 id="skills" class="section-title flex flex-center bg-dark">Skills</h2>
-
-    <section >
-      <div class="skills-highlight flex-column flex-center">
-        <h3>IDE  &amp; Tools</h3>
-        <ul class="skills-ul">
-          <li>
-            <a href="https://docs.microsoft.com/en-us/visualstudio/windows/?view=vs-2019" target="_blank">
-              <i class="devicon devicon-visualstudio-plain colored"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://code.visualstudio.com/docs" target="_blank">
-              <i class="devicon devicon-vscode-plain colored"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.jetbrains.com/pycharm/documentation/" target="_blank">
-              <i class="devicon devicon-pycharm-plain colored"></i>
-            </a>  
-          </li>
-          <li>
-            <a href="https://git-scm.com/doc" target="_blank">
-              <i class="devicon devicon-git-plain colored"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://guides.github.com/" target="_blank">
-              <i class="devicon devicon-github-plain colored"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://docs.gitlab.com/" target="_blank">
-              <i class="devicon devicon-gitlab-plain colored"></i>
-            </a>
-          </li>
-        </ul>
-        <h3>Programming Languages</h3>
-        <ul class="skills-ul">
-          <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
-              <i class="devicon devicon-html5-plain-wordmark colored"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-              <i class="devicon devicon-css3-plain-wordmark colored"></i>
-            </a>
-          </li>
-          <li >
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-              <i class="devicon devicon-javascript-plain colored"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://reactjs.org/docs/getting-started.html" target="_blank">
-              <i class="devicon devicon-react-original-wordmark colored"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://nodejs.org/en/docs/" target="_blank">
-              <i class="devicon devicon-nodejs-plain colored"></i>
-            </a>
-          </li>
-            <li>
-              <a href="https://docs.python.org/3/"  target="_blank">
-                <i class="devicon devicon-python-plain-wordmark colored"></i>
-              </a>
-          </li>
-          <li>
-            <a href="https://docs.microsoft.com/en-us/cpp/?view=vs-2019" target="_blank">
-              <i class="devicon devicon-cplusplus-plain-wordmark colored"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank">
-              <i class="devicon devicon-csharp-plain-wordmark colored"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <h2 id="projects" class="section-title flex flex-center bg-dark">Projects</h2>
-
-    <section>
-      <div class="flex-columns">
-        <div class="row">
-          <div class="column card edge-ledger-bg project-bg">
-            <h3 class="flex-center edge-ledger-title"><span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Ledger</h3>
-            <ul class="flex-items">
-              <h4 class="text-primary">Skills: </h4>
-              <li><i class="devicon-vscode-plain colored fa-2x"></i></li>
-              <li><i class="devicon-git-plain colored fa-2x"></i></li>
-              <li><i class="devicon-html5-plain-wordmark colored fa-2x"></i></li>
-              <li><i class="devicon-css3-plain-wordmark colored fa-2x"></i></li>
-            </ul>
-            <div class="project-links">
-              <a href="https://jasjohn3.github.io/EdgeLeger/" target="_blank" class="edge-ledger-title"><span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Ledger</a>
-              <a href="https://github.com/JasJohn3/EdgeLeger" target="_blank" class="bg-dark"><i class="fab fa-github fa-2x"></i></i></a>
-            </div>
-
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="\">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </header>
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br>
+          <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+          <div class="row center">
+            <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
           </div>
-          <div class="column card run-buddy-bg project-bg">
-            <h3 class="flex-center run-buddy-title">Run Buddy</h3>
-            <ul class="flex-items">
-              <h4 class="text-primary">Skills: </h4>
-              <li><i class="devicon-vscode-plain colored fa-2x"></i></li>
-              <li><i class="devicon-git-plain colored fa-2x"></i></li>
-              <li><i class="devicon-html5-plain-wordmark colored fa-2x"></i></li>
-              <li><i class="devicon-css3-plain-wordmark colored fa-2x"></i></li>
-            </ul>
-            <div class="project-links">
-              <a href="https://jasjohn3.github.io/run-buddy/" target="_blank" class="flex-center run-buddy-title">Run Buddy</a>
-              <a href="https://github.com/JasJohn3/run-buddy" target="_blank" class="bg-dark"><i class="fab fa-github fa-2x"></i></i></a>
-            </div>
+          <div class="row center">
+            <a href="#about" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">About</a>
           </div>
-          <div class="column card hotelbt-bg project-bg">
-            <h3 class="flex-center hotelbt-title"><span>Hotel</span>BT</h3>
-            <ul class="flex-items">
-              <h4 class="text-primary">Skills: </h4>
-              <li><i class="devicon-vscode-plain colored fa-2x"></i></li>
-              <li><i class="devicon-git-plain colored fa-2x"></i></li>
-              <li><i class="devicon-html5-plain-wordmark colored fa-2x"></i></li>
-              <li><i class="devicon-css3-plain-wordmark colored fa-2x"></i></li>
-            </ul>
-            <div class="project-links">
-              <a href="https://jasjohn3.github.io/HOTELBT/" target="_blank" class="flex-center hotelbt-title"><span ><i class="fas fa-book-open"></i> Hotel</span>BT</a>
-              <a href="https://github.com/JasJohn3/HOTELBT" target="_blank" class="bg-dark"><i class="fab fa-github fa-2x"></i></i></a>
-            </div>
-          </div>
+          <br><br>
+  
         </div>
       </div>
-    </section>
-
-    <h2 id="about" class="section-title flex flex-center bg-dark">About</h2>
-
-    <section>
-      <div class="flex-columns">
-        <h3 class="flex-center">Education</h3>
-        <div class="row">
-          <div class="card column flex-center">
-            <h3 class="text-secondary">University of Arizona Coding Boot Camp</h3>
-            <h4>In Progress</h4>     
-            <ul class="flex-items">
-              <h4 class="text-primary">Skills: </h4>
-              <li><i class="devicon-vscode-plain colored fa-2x"></i></li>
-              <li><i class="devicon-git-plain colored fa-2x"></i></li>
-              <li><i class="devicon-html5-plain-wordmark colored fa-2x"></i></li>
-              <li><i class="devicon-css3-plain-wordmark colored fa-2x"></i></li>
-              <li><i class="devicon-javascript-plain colored fa-2x"></i></li>
-            </ul>
-          </div>
-          <div class="card column flex-center">
-            <h3 class="text-secondary">University of Advancting Technology</h3>
-            <h4>Bachelor of Science</h4>
-            <ul class="flex-items">
-              <h4 class="text-primary">Skills: </h4>
-              <li><i class="devicon-visualstudio-plain colored fa-2x"></i></li>
-              <li><i class="devicon-pycharm-plain colored fa-2x"></i></li>
-              <li><i class="devicon-github-plain colored fa-2x"></i></li>
-              <li><i class="devicon-cplusplus-plain-wordmark colored fa-2x"></i></li>
-              <li><i class="devicon-python-plain-wordmark colored fa-2x"></i></li>
-              <li><i class="devicon-csharp-plain-wordmark colored fa-2x"></i></li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- Contact -->
-
-    <h2 id="contact" class="section-title flex flex-center bg-dark">Contact</h2>
-
-    <section  class="contact flex-columns">
-      <div class="row">
-        <div class="column">
-          <div class="address column-1 bg-dark">
-              <div>
-                <h3>Jason Lane Johnson</h3>
-                <address>
-                  31449 Firwood Dr <br/>
-                  Running Springs, CA 92382<br/>
-                  <br/>
-                  P: 602-621-3220<br/>
-                  E: <a href="mailto:jasonlanejohnson@@gmail.com">jasonlanejohnson@gmail.com</a>
-                </address>
-              </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="column-2 bg-light">
-            <form action="" class="callback-form">
-              <div class="form-control">
-                <label for="name">Name</label>
-                <input type="text"  name="name" id="name" placeholder="Enter Name">
-              </div>
-              <div class="form-control">
-                <label for="email">Email</label>
-                <input type="email"  name="email" id="email" placeholder="Enter Email">
-              </div>
-              <div class="form-control">
-                <label for="phone">Phone</label>
-                <input type="text"  name="phone" id="phone" placeholder="Enter Phone">
-              </div>
-              <div class="form-control">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-              </div>
-              <input type="submit" value="Send" id="submit" class="btn btn-dark">
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer class="footer bg-dark">
-    <div class="social">
-      <!-- <a href=""><i class="fab fa-facebook fa-2x"></i></a> -->
-      <a href="https://github.com/JasJohn3" target="_blank"><i class="fab fa-github fa-2x"></i></i></a>
-      <!-- <a href=""><i class="fab fa-youtube fa-2x"></i></a> -->
-      <a href="https://www.linkedin.com/in/jason-lane-johnson/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+      <div class="parallax"><img src="./assets/images/hero-bg.jpg" alt="Unsplashed background image"></div>
     </div>
-    <p>Copyright &copy; - Jason Lane Johnson</p>
-  </footer>
-  <script src="./assets/js/app.js"></script>
-</body>
+    <main>
+
+      <section id="about" >
+        <div class="row">
+          <div class="col s12 m6 l3 card">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse labore ipsam iure? Culpa vero enim maiores, excepturi, sapiente fugit, autem quas delectus dolores itaque unde nam quaerat tempore obcaecati nobis?
+            </p>
+          </div>
+        </div>
+
+      </section>
+    </main>
+    <footer class="page-footer blue-grey darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Jason Lane Johnson</h5>
+            <p class="grey-text text-lighten-4">
+              Software Engineer and Full Stack Web Developer
+            </p>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li>
+                <a target="_blank" class="white-text" href="https://www.linkedin.com/in/jason-lane-johnson/"><i class="small-round p-2 fab fa-linkedin-in fa-2x blue white-text"></i></a>
+              </li>
+              <li>
+                <a target="_blank" class="white-text" href="https://github.com/JasJohn3"><i class="small-round my-1 p-2 fab fa-github fa-2x black white-text"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="white-text" href="mailto:jsplasmo1@gmail.com?subject=Portolio Contact">Jason Johnson</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          Made with
+          <a class="brown-text text-lighten-3" href="http://materializecss.com"
+            >Materialize</a
+          >
+        </div>
+        <div class="container white-text">© 2021 Jason Lane Johnson</div>
+      </div>
+    </footer>
+    <script src="./assets/js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.mijs"></script> -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, {});
+      });
+    </script>
+  </body>
 </html>

@@ -1,10 +1,6 @@
-// alert("App.js is connected!");
-const hamburger = document.getElementById('hamburger');
-const navUL = document.getElementById('nav-ul');
-
-hamburger.addEventListener('click',()=>{
-  navUL.classList.toggle('show');
-})
-navUL.addEventListener('click',()=>{
-  navUL.classList.toggle('show');
-})
+document.addEventListener('DOMContentLoaded', function () {
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems, options);
+  var elems = document.querySelectorAll('.parallax');
+  var instances = M.Parallax.init(elems, {});
+});

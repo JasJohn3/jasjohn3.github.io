@@ -1,0 +1,35 @@
+.p-1{
+  padding: 3px;
+}
+.p-2{
+  padding: 5px;
+}
+.p-3{
+  padding: 8px;
+}
+.small-round{
+border-radius: 5px;
+}
+
+.my-1{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.my-2{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.my-1{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#landing{
+  height: 100vh;
+  background-image: url('../images/hero-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
