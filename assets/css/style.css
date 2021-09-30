@@ -43,3 +43,15 @@ border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/* #projects .card{
+  max-width: 32rem;
+} */
+#projects .card img{
+  height: 22rem;
+  max-height: 22rem;
+}
+img{
+  max-height: 42rem;
+}
+
