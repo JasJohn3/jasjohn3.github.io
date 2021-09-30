@@ -1,0 +1,57 @@
+.p-1{
+  padding: 3px;
+}
+.p-2{
+  padding: 5px;
+}
+.p-3{
+  padding: 8px;
+}
+.small-round{
+border-radius: 5px;
+}
+
+.mx-1{
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.mx-2{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.mx-3{
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.mx-4{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.my-1{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.my-2{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.my-3{
+  margin-top: 7px;
+  margin-bottom: 8px;
+}
+.my-4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* #projects .card{
+  max-width: 32rem;
+} */
+#projects .card img{
+  height: 22rem;
+  max-height: 22rem;
+}
+img{
+  max-height: 42rem;
+}
+
